@@ -36,7 +36,8 @@
             <img class="mb-4" src="{{ asset('assets/images/logo.png') }}" alt="" width="72" height="72">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
             <div class="form-floating"> <input name="email" type="email" class="form-control" id="floatingInput"
-                    placeholder="name@example.com"> <label for="floatingInput">Email address</label>
+                    placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
                 @error('email')
                     <span class="text-danger">{{ $message }}</span>
                 @enderror
